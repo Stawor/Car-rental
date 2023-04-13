@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Nav() {
   return (
-    <div className=" flex place-content-around place-items-center">
+    <div className=" flex place-content-around place-items-center absolute z-30 w-full mt-5">
 
         <div>
           <Image 
@@ -15,7 +15,7 @@ export default function Nav() {
           height={50}
            />
         </div>
-        <div className="">
+        <div className=" hidden lg:block">
           <ul className=" flex gap-8">
             <li>Home</li>
             <li>About</li>
@@ -23,7 +23,7 @@ export default function Nav() {
             <li>Contact</li>
           </ul>
         </div>
-          <div>
+          <div className="">
             Sing In
             Register 
             {/* <Link></Link>
