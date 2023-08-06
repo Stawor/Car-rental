@@ -6,5 +6,11 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  
+}
+
+select,
+input {
+  width: 14rem;
+  margin-bottom: 1rem;
+  height: 2rem;
 }
