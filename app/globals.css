@@ -14,3 +14,16 @@ input {
   margin-bottom: 1rem;
   height: 2rem;
 }
+
+b {
+  color: orangered;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  color: #706f7b;
+  font-size: small;
+}
